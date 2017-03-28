@@ -1,6 +1,6 @@
 ---
 title: project of stackoverflow - python object(一)
-data: 2017/3/14 22:27:10
+date: 2017-03-14 22:27:10
 categories: stackoverflow
 tags: [stackoverflow,python,object]
 description: 搬运stackoverflow有关python的问题 之 object部分 （一）
