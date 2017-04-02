@@ -127,7 +127,11 @@ L[C] = C + merge(AXYO,BYXO,AB)
 如果将类`N`的定义改为`class N(A,C,B)`
 ![solved-beads on strings](http://www.cafepy.com/article/python_attributes_and_methods/images/beads_on_strings_solved.png)
 
-----
+---
+
+以上深入了解以下这个机制就可以，在编程的时候可以调用`__mro__`属性来查看一个类的`mro`，了解这个更有助于你理解你写的程序，比如`super`，比如描述符当中也会用到这个概念
+
+---
 
 出处：
 1. [The Python 2.3 Method Resolution Order](https://www.python.org/download/releases/2.3/mro/)
