@@ -286,3 +286,37 @@ print "C.nope", C.nope
 这个没有变 getattr M nope
 """
 ```
+
+结果：
+```python
+******
+c.__class__ <class '__main__.C'>
+c.__class__.__getattribute__ <slot wrapper '__getattribute__' of 'object' objects>
+c.__class__.__mro__ (<class '__main__.C'>, <class '__main__.B'>, <class '__main__.A'>, <type 'object'>)
+******
+c.x x from A
+c.y NonDesc: y from cls A
+c.z DataDesc: z from cls A
+c.nope getattr C: nope
+******
+c.t t from obj c
+c.u <__main__.NonDesc object at 0x1009b8f10>
+c.v <__main__.DataDesc object at 0x1009b8f50>
+c.x x from obj c
+c.y <__main__.NonDesc object at 0x1009b8f90>
+c.z DataDesc: z from cls A
+******
+C.x x from A
+C.y NonDesc: y from cls A
+C.z DataDesc: z from cls M
+C.nope getattr M nope
+******
+C.t t from obj C
+C.u NonDesc: u from obj C
+C.v DataDesc: v from obj C
+C.x x from obj C
+C.y NonDesc: y from obj C
+C.z DataDesc: z from cls M
+C.nope getattr M nope
+```
+
