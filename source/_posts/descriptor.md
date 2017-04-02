@@ -51,7 +51,7 @@ dict_proxy({'__module__': '__main__', '__dict__': <attribute '__dict__' of 'A' o
 
 # 访问属性
 
-[Todo] 这里将访问属性的另做一个页面把
+[查找属性的访问顺序](http://www.mmmmmcclxxvii.cn/2017/03/08/object-attribute-look-up/)
 建议先把下面的看了再来看这个
 
 我之所以说先看下面，又不得不把这个主题先放上来，是因为其实描述符归根结底，目前看到就是对属性的取值赋值操作，**只不过是对这个操作封装了一下**而已。
