@@ -2,7 +2,7 @@
 title: zlt-project
 date: 2017-03-01 10:24:31
 categories: python
-tags: [python,project]
+tags: [python,project,Tkinter]
 description: 章礼腾要我做的一个程序，他需求是，有AB两个文件夹，我想通过B文件夹中文件的文件名将A文件夹中相同文件名的文件复制到B文件夹
 
 ---
