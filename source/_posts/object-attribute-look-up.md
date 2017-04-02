@@ -85,7 +85,7 @@ Call the Metaclass's special method __getattribute__
 
 # [例子](https://gist.github.com/Crayon277/cd05d4c058a5e11c7bd202aa44fff876)
 
-```
+```python
 #!/usr/bin/env python
 # coding=utf-8
 
