@@ -1,6 +1,6 @@
 ---
 title: python types and objects
-date: 2017-04-03 08:02:26
+date: 2016-12-03 08:02:26
 categories: python
 tags: [python,type,object]
 
