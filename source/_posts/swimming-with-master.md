@@ -1,6 +1,6 @@
 ---
 title: Interesting experience -- challenge school master swimming
-date: 2017-04-04 23:14:56
+date: 2016-11-11 23:14:56
 categories: life
 tags: [rock the boat,life]
 
