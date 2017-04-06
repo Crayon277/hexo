@@ -12,6 +12,8 @@ photos:
 - http://onexs3cnv.bkt.clouddn.com/kai.jpeg
 - http://onexs3cnv.bkt.clouddn.com/kaiandli.jpeg
 - http://onexs3cnv.bkt.clouddn.com/yekai.jpeg
+- http://onexs3cnv.bkt.clouddn.com/gateofpain.jpg
+- http://onexs3cnv.bkt.clouddn.com/mingrenchutian.jpg
 
 
 ---
