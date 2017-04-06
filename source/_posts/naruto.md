@@ -4,6 +4,15 @@ date: 2017-03-20 15:44:12
 categories: life
 tags: [life]
 description: 想成为像鸣人那样能感染身边人的人；迈特凯和李的青春！！！
+photos:
+- http://onexs3cnv.bkt.clouddn.com/narutoalone.jpeg
+- http://onexs3cnv.bkt.clouddn.com/naruto.jpeg
+- http://onexs3cnv.bkt.clouddn.com/narutoandsidai.jpeg
+- http://onexs3cnv.bkt.clouddn.com/zilaiye.jpeg
+- http://onexs3cnv.bkt.clouddn.com/kai.jpeg
+- http://onexs3cnv.bkt.clouddn.com/kaiandli.jpeg
+- http://onexs3cnv.bkt.clouddn.com/yekai.jpeg
+
 
 ---
 
@@ -36,6 +45,8 @@ description: 想成为像鸣人那样能感染身边人的人；迈特凯和李�
 >青春的操场500圈!!
 >
 >这就是青春!!!
+>
+>李洛克：在一个有觉悟的男人面前，任何哀愁和悲伤都是对他的侮辱
 
 在凯开八门遁甲，这个差点一脚踢出大结局的男人，令卡卡西尊敬不已，我反复看了好几遍。
 凯这个集逗逼与热血气质于一身的男人。

@@ -1,5 +1,5 @@
 ---
-title: Intro to hadoop and MapReduce -- Note(一)
+title: Intro to hadoop and MapReduce -- Big Data(一)
 date: 2017-04-04 20:26:09
 categories: bigdata
 tags: [hadoop,mapreduce,udacity]
