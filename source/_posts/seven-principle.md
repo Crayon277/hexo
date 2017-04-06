@@ -3,6 +3,7 @@ title: seven-principle
 date: 2017-04-04 13:58:52
 categories: life
 tags: [life,principle]
+description: 七条
 
 ---
 
