@@ -396,6 +396,8 @@ UnicodeEncodeError: 'ascii' codec cant encode characters in position 0-1: ordina
 12. [python write file dealing with encode](http://stackoverflow.com/questions/39807985/python-write-file-dealing-with-encode)
 13. [Pragmatic Unicode](http://nedbatchelder.com/text/unipain.html)
 14. [Python编程的中文问题](http://noalgo.info/578.html)
+15. [Python2字符编码问题小结](https://gist.github.com/x7hub/178c87f323fbad57ff91)
+
 
 ---
 
