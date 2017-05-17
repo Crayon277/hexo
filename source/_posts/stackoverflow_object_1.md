@@ -206,7 +206,7 @@ D foo after
 
 > super() is then obviously aware of the previous calls before it
 
-它不是。当你做`super(B,self).foo`,`super`知道你的MRO因为它会从`type(self).__mro__`中得到。然后它知道应该在MRO的B后面那里开始寻找`foo`，一个粗略的纯 python写的应该是这样的：
+它不是。当你做`super(B,self).foo`,`super`知道你的MRO因为它会从`type(self).__mro__`中得到。然后它知道应该在MRO的B后面那里开始寻找`foo`，一个粗略的纯 python写的应该是这样的:
 ```python
 class super(object):
     def __init__(self, klass, obj):
