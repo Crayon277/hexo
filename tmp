@@ -1,32 +1,22 @@
-<profile>
-       <id>jdk-1.7</id>
-       <activation>
-         <jdk>1.7</jdk>
-       </activation>
-       <repositories>
-         <repository>
-           <id>nexus</id>
-           <name>local private nexus</name>
-           <url>http://maven.oschina.net/content/groups/public/</url>
-           <releases>
-             <enabled>true</enabled>
-           </releases>
-           <snapshots>
-             <enabled>false</enabled>
-           </snapshots>
-         </repository>
-       </repositories>
-       <pluginRepositories>
-         <pluginRepository>
-           <id>nexus</id>
-          <name>local private nexus</name>
-           <url>http://maven.oschina.net/content/groups/public/</url>
-           <releases>
-             <enabled>true</enabled>
-           </releases>
-           <snapshots>
-             <enabled>false</enabled>
-           </snapshots>
-         </pluginRepository>
-       </pluginRepositories>
-     </profile>
+import sys
+
+last_key = None
+running_total = 0
+
+for input_line in sys.stdin:
+    input_line = input_line.strip()
+
+    this_key, value = input_line.split("\t",1)
+    value = int(value)
+
+    if last_key == this_key:
+        running_total += value
+    else:
+        if last_key: //进入新的一组会进入这条语句，last_key初始是None，一开始不会打印
+            print("{0}\t{1}".format(last_key,running_total))
+
+        running_total = value
+        last_key = this_key
+
+if last_key == this_key: //最后一组输出
+    print("{0}\t{1}".format(last_key,running_total))
