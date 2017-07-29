@@ -1,7 +1,7 @@
 ---
 title: 愚见比特币（一）--货币的本质
 date: 2017-05-18 10:42:39
-categories: interest
+categories: blockchain
 tags: [bitcoin,monetary,currency]
 description: 看了一些资料，表达能力不好，但还是尽量把我的看法尽可能的表达出来
 

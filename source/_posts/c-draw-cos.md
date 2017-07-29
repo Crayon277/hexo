@@ -58,6 +58,9 @@ x = acos(y) * 20
 void draw_cos_sin(){
     double y;
     int m,n,x;
+	//这里将m,x声明为int类型很重要，因为，如果不是int类型，是double类型，可能图像是打印的不完整的
+	//因为，接下来涉及到比较，== 符号，double型的话，因为acos，这种都是无理数，如果要完全相等，基本上不可能。
+	//申明为int类型，这样从0开始遍历到62，就能保证我能“卡”住。
     for(y=1;y>=-1;y-=.1){
         m=acos(y)*10; //acos值域（0～pi／2）
         n=asin(y)*10; //asin值域（-pi／2～pi／2）
