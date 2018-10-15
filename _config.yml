@@ -7,7 +7,7 @@ title: MMMMMCCLXXVII
 subtitle: 美丽的火花在恋人的周围环绕
 description: ...../..---/--.../--.../
 author: Crayon Chaney
-email: mmmmmcclxxvii@yeah.net
+email: mmmmmcclxxvii@gmail.com
 language: en
 timezone:
 
@@ -76,7 +76,7 @@ limit: 20
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Crayon277/crayon277.github.io.git
+  repo: git@github.com:Crayon277/crayon277.github.io.git 
   branch: master
 
 
