@@ -5,7 +5,7 @@ categories: C
 tags: [c,algorithm]
 description: 是图的遍历问题
 photos:
-	- []
+- http://onexs3cnv.bkt.clouddn.com/WechatIMG127.jpeg
 
 ---
 
